@@ -20,6 +20,9 @@ function addBookToLibrary() {
 
 function displayBooks(){
   myLibrary = JSON.parse(window.localStorage.getItem('booksArray'));
+  if(myLibrary===null){
+    myLibrary= [];
+  }
   const booksTable = document.getElementById("table");
   booksTable.innerHTML += "<tr>";
   myLibrary.forEach(element => {
