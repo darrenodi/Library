@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+}
+
+.library {
+  color: blue;
+}
+
+.table {
+  border: 2px solid;
+}
+
+tr {
+  border: 2px solid;
+}
+
+tr th,
+tr td {
+  border: 2px solid;
+  border-color: black;
+  padding: 10px;
+}
+
+form {
+  margin: 10px;
+}
+
+.open-button {
+  background-color: #23266e;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  border: 5px solid #f1f1f1;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="number"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
