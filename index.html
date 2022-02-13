@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="myLibrary.png" type="image/x-icon">
+</head>
+<body>
+  <header class="library">
+    <h1>Library</h1>
+  </header>
+
+    <table class="table" id="table">
+      <tr>
+        <th>Book Name</th>
+        <th>Author</th>
+        <th>Number of pages</th>
+        <th>Read Status</th>
+      </tr>
+    </table>
+    <br>
+    <button class="open-button" onclick="openForm()">Add New Book</button>
+    <div class="form-popup" id="myForm">
+    <form action="" id="myForm" class="form-container">
+      <h3>Add New Book</h3>
+      <input type="text" placeholder="Name of book" id="name" name="name" required>
+      <input type="text" placeholder="Author of book" id="Author" name="Author" required>
+      <input type="number" placeholder="Number of pages" id="nop" name="nop" required>
+      <div>
+        <label for="ronr">Have you read it?</label>
+      <input type="checkbox" id="ronr" name="ronr" checked>
+      </div>
+      <button type="submit" class="btn">Add Book</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form></div>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
