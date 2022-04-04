@@ -21,6 +21,14 @@ tr td {
   padding: 10px;
 }
 
+.readStatus {
+  background-color: #04aa6d;
+}
+
+.delete {
+  background-color: red;
+}
+
 form {
   margin: 10px;
 }
